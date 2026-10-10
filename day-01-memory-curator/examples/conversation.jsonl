@@ -1,0 +1,6 @@
+{"id":"t1","role":"user","content":"I prefer concise weekly reports."}
+{"id":"t2","role":"user","content":"Remember that my email is jane@example.com."}
+{"id":"t3","role":"user","content":"I need to review the onboarding draft."}
+{"id":"t4","role":"user","content":"My timezone is Eastern."}
+{"id":"t5","role":"user","content":"My timezone is Pacific."}
+{"id":"t6","role":"assistant","content":"I prefer detailed answers."}
