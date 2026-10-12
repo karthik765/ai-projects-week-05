@@ -1,0 +1,13 @@
+{
+  "policy": {
+    "allowed_tools": ["search", "send_email"],
+    "blocked_tools": ["delete_records"],
+    "blocked_argument_keys": ["password", "private_key"],
+    "require_confirmation_for": ["send_email"],
+    "max_calls": 4
+  },
+  "calls": [
+    {"id": "call-1", "name": "search", "arguments": {"query": "refund policy"}},
+    {"id": "call-2", "name": "send_email", "arguments": {"to": "customer@example.com"}}
+  ]
+}
