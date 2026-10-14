@@ -1,0 +1,6 @@
+{"id":"a1","text":"The answer cites the supplied evidence.","label":"grounded"}
+{"id":"a2","text":"The answer invents a source that was not provided.","label":"unsupported"}
+{"id":"a3","text":"The response states the evidence limitation.","label":"grounded"}
+{"id":"a4","text":"The answer invents a source that was not provided.","label":"unsupported"}
+{"id":"a5","text":"The response gives a concise supported answer.","label":"grounded"}
+{"id":"a6","text":"The response makes an unsupported claim.","label":"unsupported"}
