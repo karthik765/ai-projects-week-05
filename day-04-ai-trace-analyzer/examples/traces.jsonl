@@ -1,0 +1,4 @@
+{"request_id":"r-1","model":"atlas-mini","latency_ms":210,"prompt_tokens":120,"completion_tokens":40,"status":"ok"}
+{"request_id":"r-2","model":"atlas-mini","latency_ms":480,"prompt_tokens":90,"completion_tokens":80,"status":"ok"}
+{"request_id":"r-3","model":"atlas-pro","latency_ms":920,"prompt_tokens":250,"completion_tokens":110,"status":"timeout","error":"deadline exceeded"}
+{"request_id":"r-4","model":"atlas-mini","latency_ms":350,"prompt_tokens":80,"completion_tokens":35,"status":"ok"}

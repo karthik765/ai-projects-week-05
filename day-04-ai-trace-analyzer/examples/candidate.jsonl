@@ -1,0 +1,2 @@
+{"request_id":"c-1","model":"atlas-mini","latency_ms":500,"prompt_tokens":100,"completion_tokens":40,"status":"ok"}
+{"request_id":"c-2","model":"atlas-mini","latency_ms":900,"prompt_tokens":100,"completion_tokens":40,"status":"error","error":"provider error"}
