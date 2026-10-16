@@ -1,0 +1,3 @@
+{"query_id":"billing-refund","relevant_ids":["billing-refund-policy"],"retrieved_ids":["billing-faq","billing-refund-policy","shipping"],"cited_ids":["billing-refund-policy"]}
+{"query_id":"data-retention","relevant_ids":["security-retention","privacy-export"],"retrieved_ids":["security-retention","privacy-export","billing-faq"],"cited_ids":["security-retention"]}
+{"query_id":"plan-change","relevant_ids":["plans"],"retrieved_ids":["billing-faq","shipping","security-retention"]}
