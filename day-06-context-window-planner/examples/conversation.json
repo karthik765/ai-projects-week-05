@@ -1,0 +1,8 @@
+[
+  {"role": "system", "content": "You are a concise project assistant.", "pinned": true},
+  {"role": "user", "content": "We are preparing a launch checklist for the mobile release.", "priority": 1},
+  {"role": "assistant", "content": "The checklist includes QA, accessibility, analytics, and rollback steps."},
+  {"role": "user", "content": "Remember that the launch is scheduled for Friday at 10 AM.", "priority": 3, "pinned": true},
+  {"role": "assistant", "content": "Earlier discussion covered several alternative icon colors and draft taglines."},
+  {"role": "user", "content": "What should we verify before shipping?", "priority": 2}
+]

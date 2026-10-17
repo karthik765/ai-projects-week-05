@@ -11,5 +11,6 @@ Small, practical AI engineering projects built one per calendar day.
 | 03 | [Evalset Splitter](day-03-evalset-splitter/) | Creates deterministic, stratified JSONL splits and flags duplicate or cross-split leakage risks. |
 | 04 | [AI Trace Analyzer](day-04-ai-trace-analyzer/) | Summarizes local AI request traces and flags latency, failure-rate, and cost regressions. |
 | 05 | [Retrieval Quality Auditor](day-05-retrieval-quality-auditor/) | Measures retrieval hit rate, MRR, recall, citation coverage, and candidate regressions. |
+| 06 | [Context Window Planner](day-06-context-window-planner/) | Packs conversation messages into a token budget while preserving required context and explaining drops. |
 
 Projects are dependency-free Python utilities unless their individual README says otherwise.
