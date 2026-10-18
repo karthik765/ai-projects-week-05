@@ -12,5 +12,6 @@ Small, practical AI engineering projects built one per calendar day.
 | 04 | [AI Trace Analyzer](day-04-ai-trace-analyzer/) | Summarizes local AI request traces and flags latency, failure-rate, and cost regressions. |
 | 05 | [Retrieval Quality Auditor](day-05-retrieval-quality-auditor/) | Measures retrieval hit rate, MRR, recall, citation coverage, and candidate regressions. |
 | 06 | [Context Window Planner](day-06-context-window-planner/) | Packs conversation messages into a token budget while preserving required context and explaining drops. |
+| 07 | [Prompt Injection Detector](day-07-prompt-injection-detector/) | Scores untrusted text for instruction-hijacking signals and returns explainable findings for review. |
 
 Projects are dependency-free Python utilities unless their individual README says otherwise.
