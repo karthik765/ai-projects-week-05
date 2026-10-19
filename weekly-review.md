@@ -1,40 +1,43 @@
-# Complete Weekly Codex Review: 2026-10-05 to 2026-10-11
+# Complete Weekly Codex Review: 2026-10-12 to 2026-10-18
 
 ## Executive summary
-This review covers 4 Codex items, 2 automation records, 3 active GitHub repositories, and 2 linked artifacts.
-Status: 6 completed, 1 ongoing, 2 blocked, 0 planned.
+This review covers 8 Codex items, 2 automation records, 1 active GitHub repositories, and 3 linked artifacts.
+Status: 9 completed, 0 ongoing, 2 blocked, 0 planned.
 
 ## Topics covered
-AI projects, automation, briefing, browser extensions, calendar, daily brief, daily projects, GitHub, integration tests, JavaScript, link discovery, Manifest V3, memory curation, notes, PDF, privacy, private repository, Python, README, source access, testing, website, weekly review
+AI evaluation, AI observability, AI projects, AI safety, AI security, AIS-OS, automation, calendar, citations, context windows, conversation memory, cost, daily brief, daily projects, data leakage, datasets, deliverables, email, evaluation, examples, GitHub, latency, local-first, MRR, next cycle, observability, policy, private repository, project routing, prompt injection, Python, README, recall, retrieval, risk scoring, skills, source access, synchronization, testing, token budgeting, tool calls, traces, weekly projects
 
 ## Projects and tasks
-- **Weekly AI Projects Review PDF** (completed): Prior review run refreshed week-04 outputs and confirmed the renderer, GitHub access, and weekly report workflow before this week began.
-- **Daily brief** (blocked): Accessible task listing shows the weekday brief ran, but calendar data was unavailable in the task environment; email and attention data were not independently verified here.
-- **karthik765/ai-projects-week-04** (completed): Three week-04 maintenance/report commits were active on Oct 5: day-03 AI usage analyzer, bytecode cleanup, and weekly review refresh. Private Python repository; no new daily project was created this week.
-- **karthik765/extensions** (completed): Private JavaScript Manifest V3 collection had 10 commits on Oct 5 expanding tested local-first browser tools, privacy/data handling, image inventory actions, and integration-test stability. Latest commit normalized trailing whitespace in four integration tests.
-- **Find notes website link** (ongoing): A projectless Codex task was visible in the weekly listing with the goal to locate the notes website URL; detailed turn content was not accessible from the listing.
-- **karthik765/ai-projects-week-05** (completed): Private Python repository created for the current cycle. Commit d4cb00b added day-01 conversation memory curator with 11 files, six automated tests, and verified Markdown/JSON CLI examples.
-- **Weekly AI Projects GitHub Builder** (completed): Created and published private ai-projects-week-05/day-01-memory-curator at commit d4cb00b; six tests and Markdown/JSON CLI examples passed.
+- **Tool Call Policy Checker** (completed): Built and published a dependency-free policy checker that classifies tool calls as allow, review, or deny with explainable findings, blocked argument detection, confirmation requirements, batch limits, CLI output, and tests.
+- **Weekly AIS-OS skill sync** (completed): The public AIS-OS sync found no meaningful central changes; existing SHEDULES routing and skip decisions were preserved without writing project files.
+- **Evalset Splitter** (completed): Built a deterministic JSONL train/validation/test splitter using stable hashes, optional label stratification, duplicate and cross-split leakage detection, reporting, CLI, README, and tests.
+- **AI Trace Analyzer** (completed): Built a standard-library trace analyzer covering request counts, errors, latency percentiles, token usage, estimated cost, model mix, slow or failed requests, and baseline comparison.
+- **Retrieval Quality Auditor** (completed): Built a dependency-free JSONL retrieval auditor with hit-rate cutoffs, MRR, mean recall, citation coverage, missed-query reporting, validation, regression warnings, CLI, examples, and tests.
+- **Daily brief** (blocked): The accessible weekday brief task ran, but calendar and unread-email data were not available in its environment; only unresolved attention items could be carried forward.
+- **Context Window Planner** (completed): Built a deterministic context-window planner that estimates tokens, preserves system and pinned messages, prioritizes useful history, reports dropped messages, and exposes human-readable and JSON CLI output.
+- **Prompt Injection Detector** (completed): Built a dependency-free explainable detector for instruction override, hidden-prompt, role-impersonation, unsafe-action, delimiter, and encoded-payload signals with risk scoring, CLI, README, and tests.
+- **karthik765/ai-projects-week-05** (completed): Private Python repository active during the window with six in-window project commits plus the Oct 12 report commit; seven dated projects are present and all seven local suites passed for 36 tests total.
 
 ## Automations
-- **Weekly AI Projects GitHub Builder**: ACTIVE; scheduled at 11:00, 15:00, and 21:00 daily as fallback attempts. This week produced the private week-05 repository and day-01 project.
-- **Daily brief**: ACTIVE weekday schedule at 08:00; the accessible run context did not provide Google Calendar access.
+- **Weekly AI Projects GitHub Builder**: Active daily fallback schedule produced six in-window projects and the week-05 repository already contained the Oct 12 day-02 project; the Oct 19 run began after the reporting window and is excluded.
+- **Daily brief**: Active weekday schedule; calendar and email connectors were not available to the accessible task environment.
 
 ## Progress and decisions
-- Completed: Weekly AI Projects GitHub Builder, Weekly AI Projects Review PDF, Weekly AI Projects GitHub Builder, karthik765/ai-projects-week-04, karthik765/ai-projects-week-05, karthik765/extensions
+- Completed: Tool Call Policy Checker, Evalset Splitter, AI Trace Analyzer, Retrieval Quality Auditor, Context Window Planner, Prompt Injection Detector, Weekly AIS-OS skill sync, Weekly AI Projects GitHub Builder, karthik765/ai-projects-week-05
 - Decisions: preserve the daily AI project automation as a separate workflow; keep this snapshot private; retain unavailable-source limitations instead of inferring GitHub or image data.
 
 ## Blockers and open items
-- Daily brief: Accessible task listing shows the weekday brief ran, but calendar data was unavailable in the task environment; email and attention data were not independently verified here.
-- Daily brief: ACTIVE weekday schedule at 08:00; the accessible run context did not provide Google Calendar access.
+- Daily brief: The accessible weekday brief task ran, but calendar and unread-email data were not available in its environment; only unresolved attention items could be carried forward.
+- Daily brief: Active weekday schedule; calendar and email connectors were not available to the accessible task environment.
 
 ## Tests, deliverables, and measurable outcomes
 - Deliverables: weekly-review.md and weekly-review.pdf; renderer tests passed locally.
-- Measurable outcomes: 4 Codex items, 2 automation records, 3 active GitHub repositories, and 2 linked artifacts.
+- Measurable outcomes: 8 Codex items, 2 automation records, 1 active GitHub repositories, and 3 linked artifacts.
 
 ## References, images, and ideas
-- Week 05 memory curator README: Documents setup, CLI usage, extraction behavior, privacy masking, conflict handling, and tests.
-- Week 05 private GitHub repository: Private weekly repository containing the day-01 project and report outputs.
+- Week 05 private GitHub repository: Private weekly repository containing the seven daily projects, README links, tests, and the prior weekly report.
+- Week 05 project READMEs and examples: Seven project folders each include a README, runnable examples, source package, and automated test suite.
+- Ideas for next cycle: Carry forward deterministic, local-first AI tooling with explicit safety boundaries, evaluation evidence, and reproducible CLI examples.
 
 ## Lessons learned
 - Validate source availability and authentication before relying on remote repository activity.
@@ -48,7 +51,7 @@ AI projects, automation, briefing, browser extensions, calendar, daily brief, da
 ## Source availability
 - Unavailable or incomplete: Attached or mentioned local images: no retrievable weekly image paths or attachments were available, so no images were embedded.
 - Unavailable or incomplete: Automation run history: automation.toml state and task outcomes were available, but no complete scheduler execution log was exposed.
-- Unavailable or incomplete: ChatGPT conversation bodies: several weekly chat entries were listed without summaries or retrievable turn content; they are not represented as detailed work items.
+- Unavailable or incomplete: ChatGPT conversation bodies: several listed chats had no summary or retrievable turn content and were not represented as detailed work items.
 - Unavailable or incomplete: Codex task/chat listing: accessible listing was capped at 50 recent entries, so older weekly activity could be omitted.
-- Unavailable or incomplete: Google Calendar: unavailable in the Daily brief task environment.
-- Unavailable or incomplete: Weekly review source access: current run is outside the reporting window and is included only as the active renderer outcome, not as a weekly activity item.
+- Unavailable or incomplete: GitHub repository inventory: authenticated repository metadata was available, but only repositories with commits/activity in 2026-10-12 through 2026-10-18 were included; no other listed repository showed in-window activity.
+- Unavailable or incomplete: Google Calendar and unread email: unavailable in the Daily brief task environment.
